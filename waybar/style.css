@@ -1,0 +1,97 @@
+window#waybar {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: rgba(40, 42, 54, 0);
+    border-radius: 0px;
+    color: #F8F8F2;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#memory {
+    color: #FFA399;
+    background-color: #5E167D;
+    border-bottom: 5px solid #B855E2;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#cpu {
+    color: #FFA399;
+    background-color: #5E167D;
+    border-bottom: 5px solid #B855E2;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#battery {
+    color: #FFA399;
+    background-color: #5E167D;
+    border-bottom: 5px solid #B855E2;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#clock {
+    color: #FFA399;
+    background-color: #5E167D;
+    border-bottom: 5px solid #B855E2;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#pulseaudio {
+    color: #FFA399;
+    background-color: #5E167D;
+    border-bottom: 5px solid #B855E2;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#network {
+    color: #FFA399;
+    background-color: #5E167D;
+    border-bottom: 5px solid #B855E2;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#bluetooth {
+    color: #FFA399;
+    background-color: #5E167D;
+    border-bottom: 5px solid #B855E2;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#disk {
+    color: #FFA399;
+    background-color: #5E167D;
+    border-bottom: 5px solid #B855E2;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
