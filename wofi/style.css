@@ -8,7 +8,7 @@ window {
 }
 
 #entry:selected {
-    background: linear-gradient(90deg, #ff817d, #b94fff);
+    background: #ffba59;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
     border-bottom-left-radius: 15px;
@@ -25,12 +25,12 @@ window {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     background-color: rgba(0,0,0,0.9);
-    color: #ffffff;
+    color: #fc7a56;
     padding: 0.5em;
 }
 
 #outer-box {
-    border: 2px solid #b94fff;
+    border: 2px solid #fc56af;
     border-radius: 15px;
 }
 
