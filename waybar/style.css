@@ -9,9 +9,9 @@ window#waybar {
 }
 
 #memory {
-    color: #FFA399;
-    background-color: #5E167D;
-    border-bottom: 5px solid #B855E2;
+    color: #4b035c;
+    background-color: #cf5fe8;
+    border-bottom: 5px solid #4b035c;
     border-radius: 10px;
     padding: 5px 15px;
     margin-left: 5px;
@@ -20,9 +20,9 @@ window#waybar {
 }
 
 #cpu {
-    color: #FFA399;
-    background-color: #5E167D;
-    border-bottom: 5px solid #B855E2;
+    color: #16025e;
+    background-color: #6f48fa;
+    border-bottom: 5px solid #16025e;
     border-radius: 10px;
     padding: 5px 15px;
     margin-left: 5px;
@@ -31,9 +31,9 @@ window#waybar {
 }
 
 #battery {
-    color: #FFA399;
-    background-color: #5E167D;
-    border-bottom: 5px solid #B855E2;
+    color: #781d04;
+    background-color: #fc7a56;
+    border-bottom: 5px solid #781d04;
     border-radius: 10px;
     padding: 5px 15px;
     margin-left: 5px;
@@ -42,9 +42,9 @@ window#waybar {
 }
 
 #clock {
-    color: #FFA399;
-    background-color: #5E167D;
-    border-bottom: 5px solid #B855E2;
+    color: #5e3803;
+    background-color: #ffba59;
+    border-bottom: 5px solid #5e3803;
     border-radius: 10px;
     padding: 5px 15px;
     margin-left: 5px;
@@ -53,9 +53,9 @@ window#waybar {
 }
 
 #pulseaudio {
-    color: #FFA399;
-    background-color: #5E167D;
-    border-bottom: 5px solid #B855E2;
+    color: #69073b;
+    background-color: #fc56af;
+    border-bottom: 5px solid #69073b;
     border-radius: 10px;
     padding: 5px 15px;
     margin-left: 5px;
@@ -64,9 +64,9 @@ window#waybar {
 }
 
 #network {
-    color: #FFA399;
-    background-color: #5E167D;
-    border-bottom: 5px solid #B855E2;
+    color: #781d04;
+    background-color: #fc7a56;
+    border-bottom: 5px solid #781d04;
     border-radius: 10px;
     padding: 5px 15px;
     margin-left: 5px;
@@ -75,9 +75,9 @@ window#waybar {
 }
 
 #bluetooth {
-    color: #FFA399;
-    background-color: #5E167D;
-    border-bottom: 5px solid #B855E2;
+    color: #69073b;
+    background-color: #fc56af;
+    border-bottom: 5px solid #69073b;
     border-radius: 10px;
     padding: 5px 15px;
     margin-left: 5px;
@@ -86,9 +86,9 @@ window#waybar {
 }
 
 #disk {
-    color: #FFA399;
-    background-color: #5E167D;
-    border-bottom: 5px solid #B855E2;
+    color: #4b035c;
+    background-color: #cf5fe8;
+    border-bottom: 5px solid #492152;
     border-radius: 10px;
     padding: 5px 15px;
     margin-left: 5px;
