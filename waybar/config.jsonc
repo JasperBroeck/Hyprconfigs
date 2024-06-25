@@ -7,21 +7,26 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "memory",
         "cpu",
+        "memory",
         "disk"
     ],
     "modules-center": [
         "clock",
-        "pulseaudio"
     ],
     "modules-right": [
-        "network",
         "bluetooth",
+        "pulseaudio",
+        "network",
         "battery"
     ],
      }
      Modules configuration {
+     "custom/window-class": {
+            "format": "<span foreground=\"#ffffff\">{window_class}</span>",
+            "exec": "xdotool getwindowfocus getwindowclassname",
+            "interval": 1
+     }
      "sway/workspaces": {
          "disable-scroll": true,
          "all-outputs": true,
