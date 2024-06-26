@@ -48,3 +48,26 @@ Everything I need to deploy my arch hyprland ricing setup, complete configs and 
 ### 6. Reboot your system once and you'll be set!
 
 # My Hyprland keybinds
+### General
+- Mod + Enter -> kitty terminal
+- Mod + Space -> Wofi drun
+- Mod + CTRL + W -> kill focused app
+- Mod + V -> Toggle Floating
+- Mod + F -> Files (nautilus)
+- Mod + J -> Togglesplit # dwindle
+- Mod + K -> Pseudo # dwindle
+- Mod + E -> Microsoft Edge (I know I'm stupid)
+
+### Power
+- Mod + P -> Shutdown
+- Mod + SHIFT + P -> Reboot
+- Mod + L -> Lock
+
+### Windows
+- Mod + Arrows -> Move window focus
+- Mod + SHIFT + Arrows -> Move window
+- Mod + Mouse-drag -> Move window
+- Mod + SHIFT + Mouse-drag -> Resize window
+
+### Workspaces
+- Never use them so not setup at all, (DIY project for you!)
