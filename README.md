@@ -8,7 +8,6 @@ Everything I need to deploy my arch hyprland ricing setup, complete configs and 
    - git
    - curl
    - wget
-   - neofetch
    - cmatrix
    - btop
    - htop
@@ -17,6 +16,8 @@ Everything I need to deploy my arch hyprland ricing setup, complete configs and 
    - bluez bluez-utils blueman
    - network-manager-applet
    - nm-connection-editor
+   - fastfetch
+   - starship
 2. install apps using yay:
    - nwg-look-bin
 3. install apps using flatpak:
