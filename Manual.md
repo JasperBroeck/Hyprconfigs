@@ -1,7 +1,67 @@
-# Hyprconfigs
-Everything I need to deploy my arch hyprland ricing setup, complete configs and css files
+We'll install this complete setup for hyprland and it involves a few steps, just follow every step.
 
-# Installation
+# install programs using pacman
+- flatpak
+- git
+- curl
+- wget
+- btop
+- nautilus
+- kitty
+- bluez bluez-utils blueman
+- starship
+- fastfetch
+- nm-connection-editor
+- network-manager-applet
+- netctl
+- dialog
+- gnome-text-editor
+- grim slurp
+
+Install them all using:
+'''sh
+sudo pacman -Syu
+sudo pacman -S --noconfirm flatpak git curl wget btop nautilus kitty bluez bluez-utils blueman starship fastfetch nm-connection-editor network-manager-applet netctl dialog gnome-text-editor grim slurp
+'''
+
+# Install an aur helper
+### Yay
+
+run this command to install the required packages for yay
+
+'''sh
+sudo pacman -S --needed base-devel git
+'''
+
+now you have those, you can run the following commands to install yay
+
+'''sh
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+'''
+
+You just installed yay!
+
+### Paru
+
+run this command to install the required packages for paru
+
+'''sh
+sudo pacman -S --needed base-devel git
+'''
+
+now you have those, you can run the following commands to install paru
+
+'''sh
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
+'''
+
+You just installed paru!
+
+---
 
 - starship
 - kitty
@@ -15,23 +75,6 @@ Everything I need to deploy my arch hyprland ricing setup, complete configs and 
 
 ### 1. Install some apps using pacman:
 - yay
-- flatpak
-- git
-- curl
-- wget
-- cmatrix
-- btop
-- nautilus
-- kitty
-- bluez bluez-utils blueman
-- starship
-- fastfetch
-- nm-connection-editor
-- network-manager-applet
-- netctl
-- dialog
-- gnome-text-editor
-- grim slurp
 
 ### 2. Install nwg-look-bin using an AUR-Helper
 - yay -S nwg-look-bin
