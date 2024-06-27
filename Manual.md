@@ -107,13 +107,13 @@ sudo pacman -S --noconfirm waybar hyprland wofi kitty starship
 
 Now reboot once you can do that by running: `sudo reboot now`
 
----
+# Install all the configs
+So when you did all the previous steps right, you should now be able to do this, clone this repo to your system and move the wallpaper folder to your home directory.
 
+Now look in the .config folder that you downloaded and go into hypr and look at the hyprland.conf file that says hyperlandQW.conf or hyprlandAZ.conf
+the QW stands for QWERTY and the AZ for AZERTY so rename the one you want to use to hyprland.conf and remove the other one.
 
-! The keyboard in this setup is set to AZERTY (be) , so change the keyboard layout in the input section of the hyprlannd.conf if you use a QWERTY keyboard !
+then I recommend opening nautilus and opening two tabs in there, one with the .config folder of this repo and one with your .config folder on your system.
+Then move all the contents off the .config folder you downloaded to the one on your system and if it says something like: a folder with the same name already exists, click the replace button, if that's not an option, replace them manually.
 
-### 5. Install the config files
-- move all the contents of the .config folder to the .config folder in your home directory
-- place all the other files and folders except the README and LICENSE files to your home directory
-
-
+after you installed all the configs, I recommend rebooting your system completely, you can also logout and back in but I really recommend just rebooting if you have the time.
