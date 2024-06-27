@@ -3,6 +3,14 @@ Everything I need to deploy my arch hyprland ricing setup, complete configs and 
 
 # Installation
 
+- starship
+- kitty
+- waybar
+- hyprland
+- wofi
+- bashrc
+- fastfetch
+
 ! The keyboard in this setup is set to AZERTY (be) , so change the keyboard layout in the input section of the hyprlannd.conf if you use a QWERTY keyboard !
 
 ### 1. Install some apps using pacman:
