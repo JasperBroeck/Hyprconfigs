@@ -19,6 +19,7 @@ Everything I need to deploy my arch hyprland ricing setup, complete configs and 
 - network-manager-applet
 - netctl
 - dialog
+- gnome-text-editor
 
 ### 2. Install nwg-look-bin using an AUR-Helper
 - yay -S nwg-look-bin
