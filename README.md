@@ -49,39 +49,19 @@ Everything I need to deploy my arch hyprland ricing setup, complete configs and 
 - flatpak install flathub com.spotify.Client
 - flatpak install flathub com.vscodium.codium
 
-### 4. Install the config files
+### 4. Reboot your system once
+
+### 5. Install the config files
 - move all the contents of the .config folder to the .config folder in your home directory
 - place all the other files and folders except the README and LICENSE files to your home directory
 
-### 5. Install and apply your desired gtk theme for other apps
+### 6. Install and apply your desired gtk theme for other apps
 - My themes
    - graphite dark theme https://github.com/vinceliuice/Graphite-gtk-theme 
    - fluent icon theme https://github.com/vinceliuice/Fluent-icon-theme/
 - Apply them using the GTK settings app (nwg-look-bin you installed via yay or paru)
 
-### 6. Reboot your system once and you'll be set!
+### 7. Reboot your system once and you'll be set!
 
 # My Hyprland keybinds
-### General
-- Mod + Enter -> kitty terminal
-- Mod + Space -> Wofi drun
-- Mod + CTRL + W -> kill focused app
-- Mod + V -> Toggle Floating
-- Mod + F -> Files (nautilus)
-- Mod + J -> Togglesplit # dwindle
-- Mod + K -> Pseudo # dwindle
-- Mod + E -> Microsoft Edge (I know I'm stupid)
 
-### Power
-- Mod + P -> Shutdown
-- Mod + SHIFT + P -> Reboot
-- Mod + L -> Lock
-
-### Windows
-- Mod + Arrows -> Move window focus
-- Mod + SHIFT + Arrows -> Move window
-- Mod + Mouse-drag -> Move window
-- Mod + SHIFT + Mouse-drag -> Resize window
-
-### Workspaces
-- Never use them so not setup at all, (DIY project for you!)
