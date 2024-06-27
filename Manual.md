@@ -105,6 +105,8 @@ So most of these should already be installed but if that's not the case, just ru
 sudo pacman -S --noconfirm waybar hyprland wofi kitty starship
 ```
 
+Now reboot once you can do that by running: `sudo reboot now`
+
 ---
 
 
