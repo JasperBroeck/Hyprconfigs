@@ -19,7 +19,7 @@ We'll install this complete setup for hyprland and it involves a few steps, just
 - grim slurp
 
 Install them all using:
-'''
+'''bash
 sudo pacman -Syu
 sudo pacman -S --noconfirm flatpak git curl wget btop nautilus kitty bluez bluez-utils blueman starship fastfetch nm-connection-editor network-manager-applet netctl dialog gnome-text-editor grim slurp
 '''
