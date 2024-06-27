@@ -1,67 +1,65 @@
 # Hyprconfigs
-Everything I need to deploy my arch hyprland ricing setup, complete configs and css files
 
-# Installation
-
-- starship
-- kitty
-- waybar
-- hyprland
-- wofi
-- bashrc
-- fastfetch
+# Quick note
 
 ! The keyboard in this setup is set to AZERTY (be) , so change the keyboard layout in the input section of the hyprlannd.conf if you use a QWERTY keyboard !
 
-### 1. Install some apps using pacman:
-- yay
-- flatpak
-- git
-- curl
-- wget
-- cmatrix
-- btop
-- nautilus
-- kitty
-- bluez bluez-utils blueman
-- starship
-- fastfetch
-- nm-connection-editor
-- network-manager-applet
-- netctl
-- dialog
-- gnome-text-editor
+On this page you can find all the info that's needed to setup this complete setup from scratch on a fresh arch linux install
+Prequisites: arch linux, wayland, hyprland
 
-### 2. Install nwg-look-bin using an AUR-Helper
-- yay -S nwg-look-bin
-- paru -S nwg-look-bin
+# Info
 
-### 3. Install some apps using flatpak
-- flatpak install flathub com.microsoft.Edge
-- flatpak install flathub md.obsidian.Obsidian
-- flatpak install flathub io.gitlab.idevecore.Pomodoro
-- flatpak install flathub org.audacityteam.Audacity
-- flatpak install flathub com.obsproject.Studio
-- flatpak install flathub org.kde.kdenlive
-- flatpak install flathub org.libreoffice.LibreOffice
-- flatpak install flathub com.mojang.Minecraft
-- flatpak install flathub io.github.ec_.Quake3e.OpenArena
-- flatpak install flathub com.spotify.Client
-- flatpak install flathub com.vscodium.codium
+This whole setup includes the following:
+- A hyprland config file with custom keyboard shortcuts
+- A waybar configuration that looks way too pretty
+- A wofi configuration
+- A nice kitty terminal config, it's just to get some colors
+- A .bashrc file, to get starship working
+- A starship configuration to make it pretty
+- A fastfetch configuration to make it just like neofetch (completely optional like everythink actually but this really doesn't add much to the setup so I'll forgive you if you don't use it)
 
-### 4. Reboot your system once
+I'll put the keyboard shortcuts in here immediately so you can start using the system right when it's installed:
+- General
+   - Mod = super = Windows
+   - Mod + Return -> Terminal
+   - Mod + W -> close current app
+   - Mod + F -> open files (nautilus)
+   - Mod + V -> toggle floating window
+   - Mod + E -> open browser, in my case Edge, it's also configured for edge in the config file so change it if you don't like edge.
+   - Mod + Space -> wofi drun
+- Power
+   - Mod + P -> shutdown
+   - Mod + Shift + P -> reboot
+   - Mod + L -> logout
+- Workspaces
+   - Mod + Arrows -> switch window
+   - Mod + Shift + Arrows -> move window
+   - Mod + CTRL + Y -> workspace 1
+   - Mod + CTRL + U -> workspace 2
+   - Mod + CTRL + I -> workspace 3
+   - Mod + CTRL + O -> workspace 4
+   - Mod + CTRL + Shift + Y -> move app to workspace 1
+   - Mod + CTRL + Shift + U -> move app to workspace 2
+   - Mod + CTRL + Shift + I -> move app to workspace 3
+   - Mod + CTRL + Shift + O -> move app to workspace 4
+   - Mod + mouse drag -> move window
+   - Mod + Shift + mouse drag -> resize window
 
-### 5. Install the config files
-- move all the contents of the .config folder to the .config folder in your home directory
-- place all the other files and folders except the README and LICENSE files to your home directory
+# Installation
 
-### 6. Install and apply your desired gtk theme for other apps
-- My themes
-   - graphite dark theme https://github.com/vinceliuice/Graphite-gtk-theme 
-   - fluent icon theme https://github.com/vinceliuice/Fluent-icon-theme/
-- Apply them using the GTK settings app (nwg-look-bin you installed via yay or paru)
+### Automatic installation (experimental)
+Look in the Automatic.md file and follow the instructions to execute the setup.sh file
 
-### 7. Reboot your system once and you'll be set!
+### Manual installation (recommended)
+Look in the Manual.md file and follow the instructions to get setup
 
-# My Hyprland keybinds
+---
 
+# Useful links
+Handy pages for if you want to customize this for yourself or if you want to fork this project.
+- https://github.com/Alexays/Waybar/wiki/Configuration
+- https://github.com/Alexays/Waybar/wiki/Styling
+- https://wiki.hyprland.org/
+- https://sw.kovidgoyal.net/kitty/
+- https://starship.rs/guide/
+- https://starship.rs/config/
