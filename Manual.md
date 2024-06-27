@@ -29,17 +29,17 @@ sudo pacman -S --noconfirm flatpak git curl wget btop nautilus kitty bluez bluez
 
 run this command to install the required packages for yay
 
-'''sh
+```
 sudo pacman -S --needed base-devel git
-'''
+```
 
 now you have those, you can run the following commands to install yay
 
-'''sh
+```
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
-'''
+```
 
 You just installed yay!
 
@@ -47,17 +47,17 @@ You just installed yay!
 
 run this command to install the required packages for paru
 
-'''sh
+```
 sudo pacman -S --needed base-devel git
-'''
+```
 
 now you have those, you can run the following commands to install paru
 
-'''sh
+```
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
-'''
+```
 
 You just installed paru!
 
