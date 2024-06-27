@@ -77,63 +77,41 @@ Just download the theme from github or somewhere else and execute the install.sh
 You can now apply the theme and or icons with the nwg-look-bin app you installed, you'll find it as GTK Settings in your apps and if you don't see it, just logout and log back in again.
 
 # Install some apps using flatpak
-- flatpak install flathub com.microsoft.Edge
-- flatpak install flathub md.obsidian.Obsidian
-- flatpak install flathub io.gitlab.idevecore.Pomodoro
-- flatpak install flathub org.audacityteam.Audacity
-- flatpak install flathub com.obsproject.Studio
-- flatpak install flathub org.kde.kdenlive
-- flatpak install flathub org.libreoffice.LibreOffice
-- flatpak install flathub com.mojang.Minecraft
-- flatpak install flathub io.github.ec_.Quake3e.OpenArena
-- flatpak install flathub com.spotify.Client
-- flatpak install flathub com.vscodium.codium
+```
+flatpak install flathub com.microsoft.Edge -y
+flatpak install flathub md.obsidian.Obsidian -y
+flatpak install flathub io.gitlab.idevecore.Pomodoro -y
+flatpak install flathub org.audacityteam.Audacity -y
+flatpak install flathub com.obsproject.Studio -y
+flatpak install flathub org.kde.kdenlive -y
+flatpak install flathub org.libreoffice.LibreOffice -y
+flatpak install flathub com.mojang.Minecraft -y
+flatpak install flathub io.github.ec_.Quake3e.OpenArena -y
+flatpak install flathub com.spotify.Client -y
+flatpak install flathub com.vscodium.codium -y
+```
 
----
+# Install the core programs for your setup
+We'll install these applications that are basically the core of your system
 
-- starship
-- kitty
 - waybar
 - hyprland
 - wofi
-- bashrc
-- fastfetch
+- kitty
+- starship
+
+So most of these should already be installed but if that's not the case, just run:
+```
+sudo pacman -S --noconfirm waybar hyprland wofi kitty starship
+```
+
+---
+
 
 ! The keyboard in this setup is set to AZERTY (be) , so change the keyboard layout in the input section of the hyprlannd.conf if you use a QWERTY keyboard !
-
-### 1. Install some apps using pacman:
-- yay
-
-### 2. Install nwg-look-bin using an AUR-Helper
-- yay -S nwg-look-bin
-- paru -S nwg-look-bin
-
-### 3. Install some apps using flatpak
-- flatpak install flathub com.microsoft.Edge
-- flatpak install flathub md.obsidian.Obsidian
-- flatpak install flathub io.gitlab.idevecore.Pomodoro
-- flatpak install flathub org.audacityteam.Audacity
-- flatpak install flathub com.obsproject.Studio
-- flatpak install flathub org.kde.kdenlive
-- flatpak install flathub org.libreoffice.LibreOffice
-- flatpak install flathub com.mojang.Minecraft
-- flatpak install flathub io.github.ec_.Quake3e.OpenArena
-- flatpak install flathub com.spotify.Client
-- flatpak install flathub com.vscodium.codium
-
-### 4. Reboot your system once
 
 ### 5. Install the config files
 - move all the contents of the .config folder to the .config folder in your home directory
 - place all the other files and folders except the README and LICENSE files to your home directory
 
-### 6. Install and apply your desired gtk theme for other apps
-- My themes
-   - graphite dark theme https://github.com/vinceliuice/Graphite-gtk-theme 
-   - fluent icon theme https://github.com/vinceliuice/Fluent-icon-theme/
-- Apply them using the GTK settings app (nwg-look-bin you installed via yay or paru)
-
-### 7. Reboot your system once and you'll be set!
-
-# My Hyprland keybinds
 
