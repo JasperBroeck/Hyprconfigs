@@ -61,6 +61,34 @@ makepkg -si
 
 You just installed paru!
 
+# GTK theming
+
+### Install nwg-look-bin with your AUR-helper
+```
+yay -S nwg-look-bin
+or
+paru -S nwg-look-bin
+```
+
+### Install your deisred gtk theme
+Just download the theme from github or somewhere else and execute the install.sh file or follow the installation instructions on the site where you found the theme
+
+### Apply the theme
+You can now apply the theme and or icons with the nwg-look-bin app you installed, you'll find it as GTK Settings in your apps and if you don't see it, just logout and log back in again.
+
+# Install some apps using flatpak
+- flatpak install flathub com.microsoft.Edge
+- flatpak install flathub md.obsidian.Obsidian
+- flatpak install flathub io.gitlab.idevecore.Pomodoro
+- flatpak install flathub org.audacityteam.Audacity
+- flatpak install flathub com.obsproject.Studio
+- flatpak install flathub org.kde.kdenlive
+- flatpak install flathub org.libreoffice.LibreOffice
+- flatpak install flathub com.mojang.Minecraft
+- flatpak install flathub io.github.ec_.Quake3e.OpenArena
+- flatpak install flathub com.spotify.Client
+- flatpak install flathub com.vscodium.codium
+
 ---
 
 - starship
